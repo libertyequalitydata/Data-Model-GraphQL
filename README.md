@@ -6,9 +6,12 @@ In order to bring user held data models to the world, we need to ensure data mod
 
 The open standard will be public, developer centric and widely adoptable.
 
-Tools are being rolled out gradually, with work ongoing on all fronts.
+### Data Model
 
-## 
+
+
+### Permissioned Access
+
 
 
 ## How to Use This Project
@@ -16,10 +19,12 @@ Tools are being rolled out gradually, with work ongoing on all fronts.
 ### Dependencies
 
 Use of this project requires Python 3 with the following dependencies installed:
-- SQLAlchemy
-- graphene_sqlalchemy
-- Flask
-- Flask-GraphQL
+```
+pip install SQLAlchemy
+pip install graphene_sqlalchemy
+pip install Flask
+pip install Flask-GraphQL
+```
 
 ### File Descriptions
 
@@ -37,7 +42,7 @@ Use of this project requires Python 3 with the following dependencies installed:
 python app.py
 ```
 3. Open http://127.0.0.1:5000/graphql in your browser
-4. Query GraphQL
+4. Use the GraphiQL interface to query the database
 
 ### Sample GraphQL Query and Response
 
