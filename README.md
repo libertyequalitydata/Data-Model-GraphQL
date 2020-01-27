@@ -18,7 +18,9 @@ The user data model is accessed using GraphQL. The center of the model is the in
 
 ## How to Use This Project
 
-A current version of the data model and API is available for download and use.
+A current version of the data model and API is available for download and use. 
+
+There are several use cases that are being trialed, that are built on this project. For more information and support, please get in touch at developers@prifina.com
 
 ### Dependencies
 
