@@ -12,7 +12,7 @@ Access is always controlled by the individual by setting permissions by which ac
 
 ### Version Summary
 
-This is the initial version of the API. 
+This is the initial version of the API.
 
 The current API does not enforce or include the access permissions. 
 
@@ -30,7 +30,7 @@ It includes some sample data to understand the data model and possible use cases
 
 A current version of the data model and API is available for download and use. 
 
-There are several use cases that are being trialed, that are built on this project. For more information and support, please get in touch at developers@prifina.com
+There are several use cases that are being trialed in segments such as consumer finance, media, travel, that are built on this project and its data model. Creating use cases on top of this model is encouraged. For more information and support, please get in touch at developers@prifina.com
 
 ### Dependencies
 
