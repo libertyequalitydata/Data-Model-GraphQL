@@ -44,7 +44,7 @@ pip install Flask-GraphQL
 
 ### File Descriptions
 
-- models.py - python file containing database models
+- models.py - python file containing database models of the media profile
 - schema.py - python file which defines GraphQL graph structure for database models
 - app.py - python file for running GraphQL and GraphiQL views in Flask
 - database.sqlite3 - database containing dummy data for demonstration purposes
