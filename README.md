@@ -2,19 +2,23 @@
 
 ## Project Overview
 
-In order to bring user held data models to the world, we need to ensure data models follow commonly accepted principles, widely used customs as well as universality to be meaningful. This project tracks the building of a global taxonomy, using benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
+In order to bring user held data models to the world, we need to ensure data models follow commonly accepted principles, widely used customs as well as universality to be meaningful. 
 
-The open standard will be public, developer centric and widely adoptable.
+This project tracks the building of a user data model and API. It is based on benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
+
+The user data model is accessed using GraphQL. The center of the model is the individual and various information about the individual is available through permissioned API access.
 
 ### Data Model
 
-
+![full model](media/schema.png)
 
 ### Permissioned Access
 
-
+![permissions](media/Harvard_Post_Redesign_V3.jpg)
 
 ## How to Use This Project
+
+A current version of the data model and API is available for download and use.
 
 ### Dependencies
 
