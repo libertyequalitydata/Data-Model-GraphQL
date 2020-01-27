@@ -6,7 +6,7 @@ In order to bring user held data models to the world, we need to ensure data mod
 
 This project tracks the building of a user data model and API. It is based on benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
 
-The user data model is accessed using GraphQL. The center of the model is the individual and various information about the individual is available through permissioned API access, in the form of data profiles. 
+The user data model is used to build customized user data profiles that are accessed using GraphQL. The user makes these profiles available in exchange for customized services by giving permissioned API access, in the form of data profiles. 
 
 Access to data profiles is always controlled by the individual by setting permissions by which access to the data profile is granted. The individual has the ability and right to manage those permissions, granting, modifying and revoking them. 
 
@@ -16,21 +16,21 @@ This is the initial version of the API.
 
 The current API does not enforce or include the access permissions. 
 
-It includes some sample data to understand the data model and possible use cases. 
-
-### Data Model
-
-![full model](media/schema.png)
+It includes some sample data to understand the data model/profile and possible use cases. 
 
 ### Permissioned Access
 
 ![permissions](media/Harvard_Post_Redesign_V3.jpg)
 
+### Media Profile
+
+This project demonstrates how a data profile could be accessed using the GraphQL API. For this particular profile the information made available would be useful for a media company to use to give customized reading recommendations to the user.
+
 ### How to Use This Project
 
-A current version of the data model and API is available for download and use. 
+A current version of the media profile and API is available for download and use. 
 
-There are several use cases that are being trialed in segments such as consumer finance, media, travel, that are built on this project and its data model. Creating use cases on top of this model is encouraged. For more information and support, please get in touch at developers@prifina.com
+There are several use cases that are being trialed in segments such as consumer finance, media, travel, similar to this project. Creating different use cases based on this idea is encouraged. For more information and support, please get in touch at developers@prifina.com
 
 ### Dependencies
 
