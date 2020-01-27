@@ -124,7 +124,7 @@ python app.py
                 {
                   "node": {
                     "id": "SG91c2Vob2xkOjE=",
-                    "income": 120000,
+                    "income": "over 120,000",
                     "numberofchildren": 1,
                     "numberofpersonsinhome": 3,
                     "maritalstatus": "Married",
@@ -168,7 +168,7 @@ python app.py
                 {
                   "node": {
                     "id": "SG91c2Vob2xkOjI=",
-                    "income": 55000,
+                    "income": "50,000 to 60,000",
                     "numberofchildren": 2,
                     "numberofpersonsinhome": 4,
                     "maritalstatus": "Married",
