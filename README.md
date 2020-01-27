@@ -4,7 +4,7 @@
 
 In order to bring user held data models to the world, we need to ensure data models follow commonly accepted principles, widely used customs as well as universality to be meaningful. 
 
-This project tracks the building of a user data model and API. It is based on benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
+This project tracks the building of a user held data model and API. It is based on benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
 
 The user data model is used to build customized user data profiles that are accessed using GraphQL. The user makes these profiles available in exchange for customized services by giving permissioned API access, in the form of data profiles. 
 
@@ -24,7 +24,7 @@ It includes some sample data to understand the data model/profile and possible u
 
 ### Media Profile
 
-This project demonstrates how a data profile could be accessed using the GraphQL API. For this particular profile the information made available would be useful for a media company to use to give customized reading recommendations to the user.
+This project demonstrates how a data profile could be accessed using the GraphQL API. For this particular profile the information made available would be useful for a media company to use to give customized recommendations to the user.
 
 ### How to Use This Project
 
