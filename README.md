@@ -6,9 +6,9 @@ In order to bring user held data models to the world, we need to ensure data mod
 
 This project tracks the building of a user data model and API. It is based on benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
 
-The user data model is accessed using GraphQL. The center of the model is the individual and various information about the individual is available through permissioned API access. 
+The user data model is accessed using GraphQL. The center of the model is the individual and various information about the individual is available through permissioned API access, in the form of data profiles. 
 
-Access is always controlled by the individual by setting permissions by which access to the data profile is granted. The individual has the ability and right to manage those permissions, granting, modifying and revoking them. 
+Access to data profiles is always controlled by the individual by setting permissions by which access to the data profile is granted. The individual has the ability and right to manage those permissions, granting, modifying and revoking them. 
 
 ### Version Summary
 
