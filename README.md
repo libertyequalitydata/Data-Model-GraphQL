@@ -32,6 +32,10 @@ A current version of the media profile and API is available for download and use
 
 There are several use cases that are being trialed in segments such as consumer finance, media, travel, similar to this project. Creating different use cases based on this idea is encouraged. For more information and support, please get in touch at developers@prifina.com
 
+### Open Source License
+
+This project is licensed under the Mozilla Public License with terms found herein https://en.wikipedia.org/wiki/Mozilla_Public_License
+
 ### Dependencies
 
 Use of this project requires Python 3 with the following dependencies installed:
