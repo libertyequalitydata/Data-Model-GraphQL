@@ -20,7 +20,8 @@ class Basic(Base):
 class Education(Base):
     __tablename__ = 'education'
     id = Column(Integer, primary_key=True)
-    highesteducation = Column(String)
+    highestdegree = Column(String)
+    areaofstudy = Column(String)
     basic_id = Column(Integer, ForeignKey('basic.id'))
     basic = relationship(
         Basic,
@@ -53,5 +54,31 @@ class Household(Base):
     basic = relationship(
         Basic,
         backref=backref('households',
+                        uselist=True,
+                        cascade='delete,all'))
+
+class Foodandbeverage(Base):
+    __tablename__ = 'foodandbeverage'
+    id = Column(Integer, primary_key=True)
+    fastfoodweeklyfrequency = Column(Integer)
+    alcoholweeklyfrequency = Column(Integer)
+    restaurantweeklyfrequency = Column(Integer)
+    basic_id = Column(Integer, ForeignKey('basic.id'))
+    basic = relationship(
+        Basic,
+        backref=backref('foodandbeverages',
+                        uselist=True,
+                        cascade='delete,all'))
+
+class Hobbiesandinterests(Base):
+    __tablename__ = 'hobbiesandinterests'
+    id = Column(Integer, primary_key=True)
+    cinemaweeklyfrequency = Column(Integer)
+    exerciseweeklyfrequency = Column(Integer)
+    favoritemusicgenre = Column(String)
+    basic_id = Column(Integer, ForeignKey('basic.id'))
+    basic = relationship(
+        Basic,
+        backref=backref('hobbiesandinterests',
                         uselist=True,
                         cascade='delete,all'))
