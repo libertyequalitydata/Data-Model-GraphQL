@@ -101,11 +101,32 @@ python app.py
             }
           }
         }
+        foodandbeverages {
+          edges {
+            node {
+              id
+              fastfoodweeklyfrequency
+              alcoholweeklyfrequency
+              restaurantweeklyfrequency
+            }
+          }
+        }
+        hobbiesandinterests {
+          edges {
+            node {
+              id
+              exerciseweeklyfrequency
+              cinemaweeklyfrequency
+              favoritemusicgenre
+            }
+          }
+        }
         educations {
           edges {
             node {
               id
-              highesteducation
+              highestdegree
+              areaofstudy
             }
           }
         }
@@ -124,8 +145,8 @@ python app.py
           "node": {
             "id": "QmFzaWM6MQ==",
             "age": 34,
-            "name": "Tyler",
-            "gender": "male",
+            "name": "Melanie",
+            "gender": "female",
             "households": {
               "edges": [
                 {
@@ -145,9 +166,33 @@ python app.py
                 {
                   "node": {
                     "id": "T2NjdXBhdGlvbjox",
-                    "organization": "Prifina",
-                    "employeedepartment": "Information Technology",
+                    "organization": "ExxonMobil",
+                    "employeedepartment": "Petrophysics",
                     "employeeprimaryrole": "Data Analyst"
+                  }
+                }
+              ]
+            },
+            "foodandbeverages": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "Rm9vZGFuZGJldmVyYWdlOjE=",
+                    "fastfoodweeklyfrequency": 0,
+                    "alcoholweeklyfrequency": 3,
+                    "restaurantweeklyfrequency": 3
+                  }
+                }
+              ]
+            },
+            "hobbiesandinterests": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "SG9iYmllc2FuZGludGVyZXN0czox",
+                    "exerciseweeklyfrequency": 5,
+                    "cinemaweeklyfrequency": 1,
+                    "favoritemusicgenre": "rock"
                   }
                 }
               ]
@@ -157,7 +202,8 @@ python app.py
                 {
                   "node": {
                     "id": "RWR1Y2F0aW9uOjE=",
-                    "highesteducation": "Masters"
+                    "highestdegree": "Masters",
+                    "areaofstudy": "Petroleum Engineering"
                   }
                 }
               ]
@@ -196,12 +242,37 @@ python app.py
                 }
               ]
             },
+            "foodandbeverages": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "Rm9vZGFuZGJldmVyYWdlOjI=",
+                    "fastfoodweeklyfrequency": 2,
+                    "alcoholweeklyfrequency": 0,
+                    "restaurantweeklyfrequency": 2
+                  }
+                }
+              ]
+            },
+            "hobbiesandinterests": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "SG9iYmllc2FuZGludGVyZXN0czoy",
+                    "exerciseweeklyfrequency": 1,
+                    "cinemaweeklyfrequency": 2,
+                    "favoritemusicgenre": "classic"
+                  }
+                }
+              ]
+            },
             "educations": {
               "edges": [
                 {
                   "node": {
                     "id": "RWR1Y2F0aW9uOjI=",
-                    "highesteducation": "Masters"
+                    "highestdegree": "Masters",
+                    "areaofstudy": "Business Administration"
                   }
                 }
               ]
@@ -258,7 +329,6 @@ python app.py
     }
   }
 }
-
 ```
 #### Media Profile Response
 ```
@@ -270,8 +340,8 @@ python app.py
           "node": {
             "id": "QmFzaWM6MQ==",
             "age": 34,
-            "name": "Tyler",
-            "gender": "male",
+            "name": "Melanie",
+            "gender": "female",
             "households": {
               "edges": [
                 {
@@ -291,8 +361,8 @@ python app.py
                 {
                   "node": {
                     "id": "T2NjdXBhdGlvbjox",
-                    "organization": "Prifina",
-                    "employeedepartment": "Information Technology",
+                    "organization": "ExxonMobil",
+                    "employeedepartment": "Petrophysics",
                     "employeeprimaryrole": "Data Analyst"
                   }
                 }
@@ -304,7 +374,7 @@ python app.py
                   "node": {
                     "id": "RWR1Y2F0aW9uOjE=",
                     "highestdegree": "Masters",
-                    "areaofstudy": "Computer Science"
+                    "areaofstudy": "Petroleum Engineering"
                   }
                 }
               ]
@@ -406,8 +476,8 @@ python app.py
           "node": {
             "id": "QmFzaWM6MQ==",
             "age": 34,
-            "name": "Tyler",
-            "gender": "male",
+            "name": "Melanie",
+            "gender": "female",
             "foodandbeverages": {
               "edges": [
                 {
