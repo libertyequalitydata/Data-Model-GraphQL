@@ -22,7 +22,7 @@ It includes some sample data to understand the data model and possible profile u
 
 ![permissions](media/Harvard_Post_Redesign_V3.jpg)
 
-### Media Profile
+### User Profiles
 
 This project demonstrates how a data profile could be accessed using the GraphQL API and user data model. Two example data profiles are queried below: 
 
