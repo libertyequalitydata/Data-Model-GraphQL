@@ -16,7 +16,7 @@ This is the initial version of the API.
 
 The current API does not enforce or include the access permissions. 
 
-It includes some sample data to understand the data model/profile and possible use cases. 
+It includes some sample data to understand the data model and possible profile use cases. 
 
 ### Permissioned Access
 
@@ -24,11 +24,14 @@ It includes some sample data to understand the data model/profile and possible u
 
 ### Media Profile
 
-This project demonstrates how a data profile could be accessed using the GraphQL API. For this particular profile the information made available would be useful for a media company to use to give customized recommendations to the user.
+This project demonstrates how a data profile could be accessed using the GraphQL API and user data model. Two example data profiles are queried below: 
+
+1. A media profile where the information made available would be useful for a media company to use to give customized recommendations to the user.
+2. A local activity profile where the information made available would be useful for a discounting company like groupon to use to give local activity recommendations to the user.
 
 ### How to Use This Project
 
-A current version of the media profile and API is available for download and use. 
+A current version of the data model and API is available for download and use. 
 
 There are several use cases that are being trialed in segments such as consumer finance, media, travel, similar to this project. Creating different use cases based on this idea is encouraged. For more information and support, please get in touch at developers@prifina.com
 
@@ -48,7 +51,7 @@ pip install Flask-GraphQL
 
 ### File Descriptions
 
-- models.py - python file containing database models of the media profile
+- models.py - python file containing database models of the user model
 - schema.py - python file which defines GraphQL graph structure for database models
 - app.py - python file for running GraphQL and GraphiQL views in Flask
 - database.sqlite3 - database containing dummy data for demonstration purposes
