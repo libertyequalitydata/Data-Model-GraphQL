@@ -24,7 +24,7 @@ It includes some sample data to understand the data model and possible profile u
 
 ### User Profiles
 
-This project demonstrates how a data profile could be accessed using the GraphQL API and user data model. Two example data profiles are queried below: 
+This project demonstrates how a data profile could be accessed using the GraphQL API and user data model. Example data profile queries and responses are shown in the README.md of their appropriate sub-directory: 
 
 1. A media profile where the information made available would be useful for a media company to use to give customized recommendations to the user.
 2. A local activity profile where the information made available would be useful for a discounting company like groupon to use to give local activity recommendations to the user.
