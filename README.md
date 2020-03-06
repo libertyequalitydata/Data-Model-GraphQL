@@ -28,6 +28,7 @@ This project demonstrates how a data profile could be accessed using the GraphQL
 
 1. A media profile where the information made available would be useful for a media company to use to give customized recommendations to the user.
 2. A local activity profile where the information made available would be useful for a discounting company like groupon to use to give local activity recommendations to the user.
+3. A basic marketing profile that a user could activate using permissions to allow advertisers to customize ads shown to him if/when we wanted.
 
 ### How to Use This Project
 
