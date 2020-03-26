@@ -4,7 +4,7 @@ The ecommerce profile is part of a permissions based user held data model. The u
 
 The ecommerce profile has a generic version as well as several enhanced versions for specific retail segments. (in-progress)
 
-#### Ecommerce profile versions
+#### Ecommerce Profile Versions
 1. Generic
 2. Segment 1
 3. Segment 2
