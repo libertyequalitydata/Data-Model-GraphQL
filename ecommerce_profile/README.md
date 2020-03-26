@@ -6,9 +6,9 @@ The ecommerce profile has a generic version as well as several enhanced versions
 
 #### Ecommerce Profile Versions
 1. Generic
-2. Segment 1
-3. Segment 2
-4. Segment 3
+2. Generic + Segment 1
+3. Generic + Segment 2
+4. Generic + Segment 3
 
 Here, the generic ecommerce profile is queried from the GraphQL model.
 
