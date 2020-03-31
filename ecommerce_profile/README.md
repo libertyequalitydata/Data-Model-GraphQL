@@ -2,13 +2,39 @@
 
 The ecommerce profile is part of a permissions based user held data model. The user enables ecommerce companies access to his profile in order to get customized services from the ecommerce company.
 
-The ecommerce profile has a generic version as well as several enhanced versions for specific retail segments. (in-progress)
+The ecommerce profile has a generic version as well as several enhanced versions for specific retail segments.
 
-#### Ecommerce Profile Versions
-1. Generic
-2. Generic + Segment 1
-3. Generic + Segment 2
-4. Generic + Segment 3
+#### Ecommerce Segments
+
+The list of segments is based on amazon.com categories.
+
+1. Arts & Crafts
+2. Automotive
+3. Baby
+4. Beauty & Personal Care
+5. Books
+6. Computers
+7. Digital Music
+8. Electronics
+9. Women's Fashion
+10. Men's Fashion
+11. Boys' Fashion
+12. Girls' Fashion
+13. Generic
+14. Health & Household
+15. Home & Kitchen
+16. Industrial & Scientific
+17. Luggage
+18. Movies & TV
+19. Music, CDs & Vinyl
+20. Pet Supplies
+21. Software
+22. Sports & Outdoors
+23. Tools & Home Improvement
+24. Toys & Games
+25. Video Games
+
+#### Ecommerce Profile Queries and Responses
 
 Here, the generic ecommerce profile is queried from the GraphQL model.
 
