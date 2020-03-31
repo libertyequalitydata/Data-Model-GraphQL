@@ -4,7 +4,7 @@ The ecommerce profile is part of a permissions based user held data model. The u
 
 The ecommerce profile has a generic version as well as several enhanced versions for specific retail segments.
 
-#### Ecommerce Segments
+### Ecommerce Segments
 
 The list of segments is based on amazon.com categories.
 
@@ -34,7 +34,7 @@ The list of segments is based on amazon.com categories.
 24. Toys & Games
 25. Video Games
 
-#### Ecommerce Profile Queries and Responses
+### Ecommerce Profile Queries and Responses
 
 The ecommerce profiles are: generic profile + segment
 
@@ -188,6 +188,7 @@ Here, the generic ecommerce profile is queried from the GraphQL model.
 }
 ```
 #### Ecommerce Additional Segments Responses
-´´´
-´´´
+```
+
+```
 
