@@ -36,6 +36,8 @@ The list of segments is based on amazon.com categories.
 
 #### Ecommerce Profile Queries and Responses
 
+The ecommerce profiles are: generic profile + segment
+
 Here, the generic ecommerce profile is queried from the GraphQL model.
 
 #### Ecommerce Generic Profile Query
@@ -185,3 +187,7 @@ Here, the generic ecommerce profile is queried from the GraphQL model.
   }
 }
 ```
+#### Ecommerce Additional Segments Responses
+´´´
+´´´
+
