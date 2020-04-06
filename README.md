@@ -10,6 +10,11 @@ The user data model is used to build customized user data profiles that are acce
 
 Access to data profiles is always controlled by the individual by setting permissions by which access to the data profile is granted. The individual has the ability and right to manage those permissions, granting, modifying and revoking them. 
 
+### Open Slack
+
+To join the discussion on this project and the other repositories, please join the public slack: 
+https://rb.gy/hvuhj4
+
 ### Version Summary
 
 This is the initial version of the API.
