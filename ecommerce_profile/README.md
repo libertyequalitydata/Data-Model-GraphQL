@@ -5,7 +5,7 @@ The ecommerce profile is part of a permissions based user held data model. The u
 The ecommerce profile has a generic version as well as several enhanced versions for specific retail segments.
 
 ### Ecommerce Segments
-
+ 
 The list of segments is based on amazon.com categories.
 
 1. Arts & Crafts
