@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In order to bring user held data models to the world, we need to ensure data models follow commonly accepted principles, widely used customs as well as universality to be meaningful and widely compatible.
+In order to make user held data models useful and efficient, we need to ensure data models follow commonly accepted principles, widely used customs as well as universality to be meaningful and widely compatible.
 
 This project tracks the building of a user held data model and API. It is based on benchmarks such as IAB Techlabs open standard content taxonomy and CINTs open standard taxonomy.
 
