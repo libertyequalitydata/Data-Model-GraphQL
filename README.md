@@ -12,8 +12,7 @@ Access to data profiles is always controlled by the individual by setting permis
 
 ### Open Slack
 
-To join the discussion on this project and the other repositories, please join the public slack: 
-https://rb.gy/hvuhj4
+To join the discussion on this project and the other repositories, please join the public <a href="https://join.slack.com/t/libertyequalitydata/shared_invite/zt-ddr4t974-MCzsch4FSeux8DrFQ2atbQ">Liberty Equality Data Slack</a> channel. 
 
 ### Version Summary
 
