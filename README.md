@@ -38,6 +38,8 @@ This project demonstrates how a data profile could be accessed using the GraphQL
 
 A current version of the data model and API is available for download and use. 
 
+A hosted version is planned
+
 There are several use cases that are being trialed in segments such as consumer finance, media, travel, similar to this project. Creating different use cases based on this idea is encouraged. For more information and support, please get in touch at developers@prifina.com
 
 ### Open Source License
